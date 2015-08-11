@@ -3,18 +3,24 @@
 	src: url('../fonts/Limelight.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: timeburner;
+	src: url('../fonts/timeburner.ttf') format('truetype');
+}
+
 html, body {
 	min-height: 100%;
 	height: 100%;
 	margin: 0;
     padding: 0;
+    background-color: #f5f2ed;
 }
 
 #header {
-	font-family: limelight;
+	font-family: timeburner;
 	min-height: 10%;
 	background-color: #2B292B;
-	color: #D3605C;
+	color: #c29d52;/*#D3605C;*/
 }
 
 #header > ul {
@@ -52,7 +58,7 @@ html, body {
 }
 
 #pci {
-	font-family: limelight;
+	font-family: timeburner;
 	padding-top: 30px;
 	color: #2B292B;
 }
