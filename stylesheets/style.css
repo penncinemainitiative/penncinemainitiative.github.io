@@ -140,3 +140,23 @@ small {
   border-bottom: 1px solid #f5f2ed !important;
   border-top: 1px solid #f5f2ed !important;
 }
+
+#emailinput {
+	display: inline-block;
+	width: 65% !important;
+}
+
+#signup {
+	display: inline-block;
+	background-color: #c29d52;
+	color: #2B292B;
+	border: 1px solid #2B292B;
+	border-radius: 5px;
+	width: 25% !important;
+}
+
+#signup:hover, #signup:active {
+	background-color: #2B292B !important;
+	color: #c29d52 !important;
+	border: 1px solid #c29d52 !important;
+}
