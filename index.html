@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
 	<!-- AJAX -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -23,15 +23,98 @@
 </head>
 <body>
 	<div id="header" align="center">
-		<ul>
-			<li id="pcilogo"><h4><a href="#" class="pcilogotext">PCI</a></h4></li>
-			<li><h5><a href="#" class="headeritem">Features</a></h5></li>
-			<li><h5><a href="#" class="headeritem">Movies</a></h5></li>
-			<li><h5><a href="#" class="headeritem">Events</a></h5></li>
-			<li><h5><a href="#" class="headeritem">About</a></h5></li>
-			<li id="lipadding"></li>
-		</ul>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+					<h4><a href="#" class="pcilogotext">PCI</a></h4>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+					<h5><a href="#" class="headeritem">Features</a></h5>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+					<h5><a href="#" class="headeritem">Movies</a></h5>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+					<h5><a href="#" class="headeritem">Events</a></h5>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+					<h5><a href="#" class="headeritem">About</a></h5>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div id="pci" align="center"><h2>Penn Cinema Initiative</h2></div>
+	
+	<div id="content">
+		<div id="pci" align="center"><h2>Penn Cinema Initiative</h2></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
+					<div class="topstory">
+						<div class="col-sm-12">
+							<img src="http://i.ytimg.com/vi/WSLMN6g_Od4/maxresdefault.jpg" alt="" style="width: 100%;">
+							<div class="col-sm-2" align="center" style="padding-top: 16px;">
+								<h4>Nikhil Venkatesa<br><small>08/12/2015</small></h4>
+							</div>
+							<div class="col-sm-10">
+								<h3>Jack Rabbit Slim's Twist Contest</h3>
+								<p>How to dance like Travolta...</p>
+							</div>
+						</div>
+					</div>
+					<div class="topstory">
+						<div class="col-sm-12">
+							<img src="http://www.filmdivider.com/wp-content/uploads/2015/04/2001-3.jpg" alt="" style="width: 100%;">
+							<div class="col-sm-2" align="center" style="padding-top: 16px;">
+								<h4>Nikhil Venkatesa<br><small>08/08/2015</small></h4>
+							</div>
+							<div class="col-sm-10">
+								<h3>Sci Fi: Then &amp; Now</h3>
+								<p>From <i>2001</i> to <i>Ex Machina</i> and everything in between</p>
+							</div>
+						</div>
+					</div>
+					<div class="topstory">
+						<div class="col-sm-12">
+							<img src="https://ireckonthat.files.wordpress.com/2013/09/chicago-original.jpg" alt="" style="width: 100%;">
+							<div class="col-sm-2" align="center" style="padding-top: 16px;">
+								<h4>PCI<br><small>08/07/2015</small></h4>
+							</div>
+							<div class="col-sm-10">
+								<h3>Stage to Celluloid: Screeing of <i>Chicago</i> (2002)</h3>
+								<p>Right after the TACe Acting Auditions on 8/31!</p>
+							</div>
+						</div>
+					</div>
+					<div class="topstory">
+						<div class="col-sm-12">
+							<img src="http://www.yamu.lk/uploads/files/2015/02/yimg_Uu5RCw.jpg" alt="" style="width: 100%;">
+							<div class="col-sm-2" align="center" style="padding-top: 16px;">
+								<h4>PCI<br><small>08/06/2015</small></h4>
+							</div>
+							<div class="col-sm-10">
+								<h3>Documentary Night: Screeing of <i>Searching for Sugar Man</i> (2012)</h3>
+								<p>The story of Sixto Rodriguez</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+					<div class="sidebar">
+						<div id="upcomingbar" align="center">
+							<h4>Upcoming Events</h4>
+						</div>
+						<div class="event">
+							<h5 style="margin-bottom: 4px;">Stage to Celluloid: Screeing of <i>Chicago</i> (2002)</h5>
+							<h4 style="margin-top: 4px;"><small>08/31/2015 (Harrison M20)</small></h4>
+						</div>
+						<div class="event">
+							<h5 style="margin-bottom: 4px;">Documentary Night: Screeing of <i>Searching for Sugar Man</i> (2012)</h5>
+							<h4 style="margin-top: 4px;"><small>09/12/2015 (Harrison M20)</small></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

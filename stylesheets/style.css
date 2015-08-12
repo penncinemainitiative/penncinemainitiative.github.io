@@ -18,30 +18,16 @@ html, body {
 
 #header {
 	font-family: timeburner;
-	min-height: 10%;
+	min-height: 8%;
 	background-color: #2B292B;
 	color: #c29d52;/*#D3605C;*/
-}
-
-#header > ul {
-	list-style-type: none;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	margin: auto;
-}
-
-#header > ul > li {
-	float: left;
-	width: 15%;
 	padding-top: 15px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
 }
 
-#pcilogo, #lipadding {
-	width: 20% !important;
-}
-
-.pcilogotext, .pcilogotext:hover, .pcilogotext:active, .pcilogotext:after {
+.pcilogotext, .pcilogotext:hover, .pcilogotext:active {
 	text-decoration: none;
 	color: #fff;
 	display: inline-block;
@@ -59,6 +45,26 @@ html, body {
 
 #pci {
 	font-family: timeburner;
-	padding-top: 30px;
 	color: #2B292B;
+}
+
+#content {
+	padding-top: 48px;
+}
+
+small {
+	color: #c29d52 !important;
+}
+
+#upcomingbar {
+	color: #c29d52 !important;
+	background-color: #2B292B;
+	font-family: timeburner;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.event {
+	padding-left: 8px !important;
+	padding-right: 8px !important;
 }
