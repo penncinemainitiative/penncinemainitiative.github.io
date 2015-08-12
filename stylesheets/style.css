@@ -62,6 +62,11 @@ html, body {
 	width: 100%;
 	background-color: #6A6A6A;
 	padding-top: 8px;
+	color: #f5f2ed;
+}
+
+#feature-content, #movie-content {
+	padding-bottom: 16px;
 }
 
 small {
@@ -94,16 +99,22 @@ small {
 	padding-bottom: 8px;
 }
 
-.fancy {
+#pcisubwhite {
+	font-family: timeburner;
+	color: #f5f2ed;
+	padding-bottom: 8px;
+}
+
+.fancy, .fancywhite {
   text-align: center;
   line-height: 0.38;
 }
-.fancy span {
+.fancy span, .fancywhite span {
   display: inline-block;
   position: relative;  
 }
-.fancy span:before,
-.fancy span:after {
+.fancy span:before, .fancy span:after, 
+.fancywhite span:before, .fancywhite span:after {
   content: "";
   position: absolute;
   height: 5px;
@@ -112,11 +123,16 @@ small {
   top: 0;
   width: 150px;
 }
-.fancy span:before {
+.fancy span:before, .fancywhite span:before {
   right: 100%;
   margin-right: 15px;
 }
-.fancy span:after {
+.fancy span:after, .fancywhite span:after {
   left: 100%;
   margin-left: 15px;
+}
+
+.fancywhite span:before, .fancywhite span:after  {
+  border-bottom: 1px solid #f5f2ed !important;
+  border-top: 1px solid #f5f2ed !important;
 }
