@@ -27,6 +27,15 @@ html, body {
 	z-index: 100;
 }
 
+#headernonfix {
+	font-family: timeburner;
+	min-height: 8%;
+	background-color: #2B292B;
+	color: #c29d52;/*#D3605C;*/
+	padding-top: 15px;
+	width: 100%;
+}
+
 .pcilogotext, .pcilogotext:hover, .pcilogotext:active {
 	text-decoration: none;
 	color: #fff;
@@ -46,17 +55,20 @@ html, body {
 #pci {
 	font-family: timeburner;
 	color: #2B292B;
+	padding-bottom: 16px;
 }
 
-#content {
-	padding-top: 48px;
+#movie-content {
+	width: 100%;
+	background-color: #6A6A6A;
+	padding-top: 8px;
 }
 
 small {
 	color: #c29d52 !important;
 }
 
-#upcomingbar {
+#upcomingbar, #layouts {
 	color: #c29d52 !important;
 	background-color: #2B292B;
 	font-family: timeburner;
@@ -67,4 +79,44 @@ small {
 .event {
 	padding-left: 8px !important;
 	padding-right: 8px !important;
+}
+
+#screening-banner {
+	width: 100%;
+	padding-top: 8px;
+	padding-bottom: 16px;
+	background-color: #f5f2ed;
+}
+
+#pcisub {
+	font-family: timeburner;
+	color: #2B292B;
+	padding-bottom: 8px;
+}
+
+.fancy {
+  text-align: center;
+  line-height: 0.38;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #2B292B;
+  border-top: 1px solid #2B292B;
+  top: 0;
+  width: 150px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
 }
