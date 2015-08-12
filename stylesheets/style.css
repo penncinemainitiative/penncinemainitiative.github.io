@@ -81,6 +81,10 @@ small {
 	padding-bottom: 8px;
 }
 
+#layouts p {
+	color: #f5f2ed;
+}
+
 .event {
 	padding-left: 8px !important;
 	padding-right: 8px !important;
