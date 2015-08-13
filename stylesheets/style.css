@@ -38,7 +38,7 @@ html, body {
 
 .pcilogotext, .pcilogotext:hover, .pcilogotext:active {
 	text-decoration: none;
-	color: #fff;
+	color: #f5f2ed;
 	display: inline-block;
 }
 
@@ -49,13 +49,17 @@ html, body {
 
 .headeritem:hover, .headeritem:active {
 	text-decoration: none;
-	color: #fff;
+	color: #f5f2ed;
 }
 
-#pci {
+#pci, #pciwhite {
 	font-family: timeburner;
 	color: #2B292B;
 	padding-bottom: 16px;
+}
+
+#pciwhite {
+	color: #f5f2ed !important;
 }
 
 #movie-content {
@@ -79,6 +83,7 @@ small {
 	font-family: timeburner;
 	padding-top: 8px;
 	padding-bottom: 8px;
+	margin-bottom: 8px;
 }
 
 #footer p {
