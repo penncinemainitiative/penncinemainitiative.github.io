@@ -73,7 +73,7 @@ small {
 	color: #c29d52 !important;
 }
 
-#upcomingbar, #layouts {
+#upcomingbar, #footer {
 	color: #c29d52 !important;
 	background-color: #2B292B;
 	font-family: timeburner;
@@ -81,7 +81,7 @@ small {
 	padding-bottom: 8px;
 }
 
-#layouts p {
+#footer p {
 	color: #f5f2ed;
 }
 
@@ -159,4 +159,20 @@ small {
 	background-color: #2B292B !important;
 	color: #c29d52 !important;
 	border: 1px solid #c29d52 !important;
+}
+
+.goldlink, .goldlink:hover, .goldlink:active, .goldlink:visited {
+	color: #c29d52 !important;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.footerimg {
+	width: 24px;
+	height: 24px;
+	margin: 0px 8px 8px 8px;
+}
+
+.feature-story {
+	margin-bottom: 16px;
 }
