@@ -8,6 +8,11 @@
 	src: url('../fonts/timeburner.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: gotham;
+	src: url('../fonts/Gotham-Bold_21010.ttf') format('truetype');
+}
+
 html, body {
 	min-height: 100%;
 	height: 100%;
@@ -17,7 +22,7 @@ html, body {
 }
 
 #header {
-	font-family: timeburner;
+	font-family: gotham;
 	min-height: 8%;
 	background-color: #2B292B;
 	color: #c29d52;/*#D3605C;*/
@@ -28,7 +33,7 @@ html, body {
 }
 
 #headernonfix {
-	font-family: timeburner;
+	font-family: gotham;
 	min-height: 8%;
 	background-color: #2B292B;
 	color: #c29d52;/*#D3605C;*/
@@ -53,7 +58,7 @@ html, body {
 }
 
 #pci, #pciwhite {
-	font-family: timeburner;
+	font-family: gotham;
 	color: #2B292B;
 	padding-bottom: 16px;
 }
@@ -80,7 +85,7 @@ small {
 #upcomingbar {
 	color: #c29d52 !important;
 	background-color: #2B292B;
-	font-family: timeburner;
+	font-family: gotham;
 	padding-top: 8px;
 	padding-bottom: 8px;
 	margin-bottom: 8px;
@@ -89,7 +94,6 @@ small {
 #footer {
 	color: #c29d52 !important;
 	background-color: #2B292B;
-	font-family: timeburner;
 	padding-top: 8px;
 	padding-bottom: 8px;
 	margin: 0 !important;
@@ -112,13 +116,13 @@ small {
 }
 
 #pcisub {
-	font-family: timeburner;
+	font-family: gotham;
 	color: #2B292B;
 	padding-bottom: 8px;
 }
 
 #pcisubwhite {
-	font-family: timeburner;
+	font-family: gotham;
 	color: #f5f2ed;
 	padding-bottom: 8px;
 }
@@ -197,4 +201,12 @@ small {
 
 .posttxt {
 	margin-top: 16px;
+}
+
+.post-title {
+	font-family: gotham;
+}
+
+.headerlogo {
+	height: 150px;
 }

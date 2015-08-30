@@ -29,13 +29,13 @@
 	<link rel="stylesheet" href="/stylesheets/style.css">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="/images/black.png"> 
+	<link rel="shortcut icon" href="/images/moviegoer_black.png"> 
 
 	<!-- OG -->
 	<meta property="og:title" content="The Moviegoer">
 	<meta property="og:site_name" content="The Moviegoer">
 	<meta property="og:url" content="http://penncinemainitiative.github.io/">
-	<meta property="og:image" content="">
+	<meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
 	<meta property="og:type" content="website">
 	<meta property="og:description" content="The Movigoer is Penn Cinema Initiative's online publication dedicated to covering films from all over the world.">
 
