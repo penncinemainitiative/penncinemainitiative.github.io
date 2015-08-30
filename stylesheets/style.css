@@ -190,3 +190,11 @@ small {
 .feature-story {
 	margin-bottom: 16px;
 }
+
+.postimg {
+	width: 100%;
+}
+
+.posttxt {
+	margin-top: 16px;
+}
