@@ -9,48 +9,30 @@ title: Penn Moviegoer
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
+					{% assign post = site.tags.feature.first %}
 					<div class="topstory">
 						<div class="col-sm-12">
-							<img src="http://i.ytimg.com/vi/WSLMN6g_Od4/maxresdefault.jpg" alt="" style="width: 100%;">
-							<div class="col-sm-offset-1 col-sm-10">
-								<h3>Jack Rabbit Slim's Twist Contest</h3>
-								<h4><small>08/12/2015</small> Matthew Sirkot</h4>
+							<a href="{{ post.url }}"><img src="{{ post.image }}" alt="" style="width: 100%;"></a>
+							<div class="col-sm-offset-1 col-sm-10 spacebelow">
+								<h3><a href="{{ post.url }}" class="linkblack">{{ post.title }}</a></h3>
+								<h4><small>{{ post.date | date: "%b %-d, %Y" }}</small> {{ post.author }}</h4>
 							</div>
 						</div>
 					</div>
+					{% for post in site.tags.feature offset: 1 limit: 2 %}
 					<div class="topstory">
 						<div class="col-sm-6">
-							<img src="http://www.filmdivider.com/wp-content/uploads/2015/04/2001-3.jpg" alt="" style="width: 100%;">
-							<div class="col-sm-offset-1 col-sm-10">
-								<h3>Sci Fi: Then &amp; Now</h3>
-								<h4><small>08/08/2015</small> Brad Pettigrew</h4>
+							<a href="{{ post.url }}"><img src="{{ post.image }}" alt="" style="width: 100%;"></a>
+							<div class="col-sm-offset-1 col-sm-10 spacebelow">
+								<h3><a href="{{ post.url }}" class="linkblack">{{ post.title }}</a></h3>
+								<h4><small>{{ post.date | date: "%b %-d, %Y" }}</small> {{ post.author }}</h4>
 							</div>
 						</div>
 					</div>
-					<div class="topstory">
-						<div class="col-sm-6">
-							<img src="http://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/apu_trilogy/PATHER_MAIN1520.jpg" alt="" style="width: 100%;">
-							<div class="col-sm-offset-1 col-sm-10">
-								<h3>The thematic movement of <i>The Apu Trilogy</i></h3>
-								<h4><small>08/06/2015</small> Nikhil Venkatesa</h4>
-							</div>
-						</div>
-					</div>
+					{% endfor %}
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-					<div class="sidebar">
-						<div id="upcomingbar" align="center">
-							<h4>Upcoming Events</h4>
-						</div>
-						<div class="event">
-							<h5 style="margin-bottom: 4px;">Screening of Wes Anderson's <i>The Darjeeling Limited</i></h5>
-							<h4 style="margin-top: 4px;"><small>08/26/2015 (Harrison LL12)</small></h4>
-						</div>
-						<div class="event">
-							<h5 style="margin-bottom: 4px;">Documentary Night: Screeing of <i>Searching for Sugar Man</i> (2012)</h5>
-							<h4 style="margin-top: 4px;"><small>09/12/2015 (Harrison M20)</small></h4>
-						</div>
-					</div>
+					{% include sidebar1.html %}
 				</div>
 			</div>
 		</div>
@@ -61,48 +43,30 @@ title: Penn Moviegoer
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-					<div class="sidebar">
-						<div id="upcomingbar" align="center">
-							<h4>Sidebar 2</h4>
-						</div>
-						<div class="event">
-							<h5 style="margin-bottom: 4px;">Article Title</h5>
-							<h4 style="margin-top: 4px;"><small>Author (Date)</small></h4>
-						</div>
-						<div class="event">
-							<h5 style="margin-bottom: 4px;">Article Title</h5>
-							<h4 style="margin-top: 4px;"><small>Author (Date)</small></h4>
-						</div>
-					</div>
+					{% include sidebar2.html %}
 				</div>
 				<div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
+					{% assign post = site.tags.movie.first %}
 					<div class="topstory">
 						<div class="col-sm-12">
-							<img src="https://ireckonthat.files.wordpress.com/2013/09/chicago-original.jpg" alt="" style="width: 100%;">
-							<div class="col-sm-offset-1 col-sm-10">
-								<h3>Stage to Celluloid: Review of <i>Chicago</i> (2002)</h3>
-								<h4><small>08/13/2015</small> Rohan Bhide</h4>
+							<a href="{{ post.url }}"><img src="{{ post.image }}" alt="" style="width: 100%;"></a>
+							<div class="col-sm-offset-1 col-sm-10 spacebelow">
+								<h3><a href="{{ post.url }}" class="linkwhite">{{ post.title }}</a></h3>
+								<h4><small>{{ post.date | date: "%b %-d, %Y" }}</small> {{ post.author }}</h4>
 							</div>
 						</div>
 					</div>
+					{% for post in site.tags.movie offset: 1 limit: 2 %}
 					<div class="topstory">
 						<div class="col-sm-6">
-							<img src="http://www.yamu.lk/uploads/files/2015/02/yimg_Uu5RCw.jpg" alt="" style="width: 100%;">
-							<div class="col-sm-offset-1 col-sm-10">
-								<h3>Documentary Review: <i>Searching for Sugar Man</i> (2012)</h3>
-								<h4><small>08/12/2015</small> Nikhil Venkatesa</h4>
+							<a href="{{ post.url }}"><img src="{{ post.image }}" alt="" style="width: 100%;"></a>
+							<div class="col-sm-offset-1 col-sm-10 spacebelow">
+								<h3><a href="{{ post.url }}" class="linkwhite">{{ post.title }}</a></h3>
+								<h4><small>{{ post.date | date: "%b %-d, %Y" }}</small> {{ post.author }}</h4>
 							</div>
 						</div>
 					</div>
-					<div class="topstory">
-						<div class="col-sm-6">
-							<img src="http://cinedork.com/wp-content/uploads/2015/05/Ex-Machina-Movie.jpg" alt="" style="width: 100%;">
-							<div class="col-sm-offset-1 col-sm-10">
-								<h3><i>Ex Machina</i>: My take on AI</h3>
-								<h4><small>08/12/2015</small> Brad Pettigrew</h4>
-							</div>
-						</div>
-					</div>
+					{% endfor %}
 				</div>
 			</div>
 		</div>
@@ -112,16 +76,16 @@ title: Penn Moviegoer
 		<div id="pcisub"><h2 class="fancy"><span>Next Screening</span></h2></div>
 		<div class="container">
 			<div class="row">
+				{% assign post = site.tags.event.last %}
 				<div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
-					<img src="http://criticsroundup.com/wp-content/uploads/2013/10/the-darjeeling-limited-still.jpg" style="width: 100%;">
+					<img src="{{ post.image }}" style="width: 100%;">
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					<h4>Meet the Penn Cinema Initiative at our next screening of</h4>
-					<h3>Wes Anderson's<br><i>The Darjeeling Limited</i></h3>
-					<h3><small>August 26, 2015</small></h3>
-					<h3><small>Presentation and dinner at 9:00 PM</small></h3>
-					<h3><small>Film starts at 9:30 PM</small></h3>
-					<h3><small>Harrison LL12</small></h3>
+					<h3><i>{{ post.film }}</i></h3>
+					<h3><small>{{ post.date | date: "%b %-d, %Y" }}</small></h3>
+					<h3><small>Presentation and dinner at {{ post.time }}</small></h3>
+					<h3><small>{{ post.location }}</small></h3>
 				</div>
 			</div>
 		</div>

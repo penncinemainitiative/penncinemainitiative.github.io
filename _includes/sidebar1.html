@@ -1,0 +1,12 @@
+<div class="sidebar">
+	<div id="upcomingbar" align="center">
+		<h4>Upcoming Events</h4>
+	</div>
+	{% for post in site.tags.event reversed limit: 3 %}
+	<div class="event">
+		<img src="{{ post.image }}" style="width: 100%;">
+		<h5 style="margin-bottom: 4px;">{{ post.title }}</h5>
+		<h4 style="margin-top: 4px;"><small>{{ post.date | date: "%b %-d, %Y" }} • {{ post.time }} • {{ post.location }}</small></h4>
+	</div>
+	{% endfor %}
+</div>

@@ -52,6 +52,10 @@ html, body {
 	color: inherit;
 }
 
+.headerh5 {
+	margin-top: 24px !important;
+}
+
 .headeritem:hover, .headeritem:active {
 	text-decoration: none;
 	color: #f5f2ed;
@@ -208,5 +212,57 @@ small {
 }
 
 .headerlogo {
-	height: 150px;
+	height: 42px;
+}
+
+.afooter, .afooter:active, .afooter:visited {
+	text-decoration: none;
+	color: #c29d52;
+}
+
+.afooter:hover {
+	color: #c29d52 !important;
+	text-decoration: underline;
+}
+
+.sidebarlink, .sidebarlink:active, .sidebarlink:visited {
+	color: #2B292B;
+	text-decoration: none;
+}
+
+.sidebarlink:hover {
+	color: #2B292B;
+	text-decoration: underline;
+}
+
+.posttxt > p > img {
+	width: 100% !important;
+}
+
+.spacebelow {
+	margin-bottom: 16px !important;
+}
+
+.linkblack, .linkblack:active, .linkblack:visited {
+	color: #2B292B;
+	text-decoration: none;
+}
+
+.linkblack:hover {
+	color: #2B292B;
+	text-decoration: underline;
+}
+
+.linkwhite, .linkwhite:active, .linkwhite:visited {
+	color: #f5f2ed;
+	text-decoration: none;
+}
+
+.linkwhite:hover {
+	color: #f5f2ed;
+	text-decoration: underline;
+}
+
+.active {
+	color: #f5f2ed !important;
 }

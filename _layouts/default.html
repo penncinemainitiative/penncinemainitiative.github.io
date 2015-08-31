@@ -32,6 +32,23 @@
 
     {% include footer.html %}
 
+<script>
+  $(document).ready(function() {
+      var pathname = window.location.pathname;
+      if (pathname == "/features/") {
+        $( "#features" ).addClass("active");
+      }
+      if (pathname == "/movies/") {
+        $( "#movies" ).addClass("active");
+      }
+      if (pathname == "/events/") {
+        $( "#events" ).addClass("active");
+      }
+      if (pathname == "/about/") {
+        $( "#about" ).addClass("active");
+      }
+    });
+</script>
   </body>
 
 </html>

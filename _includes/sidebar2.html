@@ -1,0 +1,12 @@
+<div class="sidebar">
+	<div id="upcomingbar" align="center">
+		<h4>Popular</h4>
+	</div>
+    {% for post in site.tags.popular limit: 3 %}
+    <div class="event">
+    	<a href="{{ post.url }}"><img src="{{ post.image }}" style="width: 100%;"></a>
+		<a href="{{ post.url }}" class="linkwhite"><h5 style="margin-bottom: 4px;">{{ post.title }}</h5></a>
+		<h4 style="margin-top: 4px;"><small>{{ post.author }} ({{ post.date | date: "%b %-d, %Y" }})</small></h4>
+	</div>
+    {% endfor %}
+</div>
