@@ -6,7 +6,8 @@ date: 2015-08-30
 excerpt: "An exploration of duality in Drive, both visual and thematic."
 image: "/images/Drive/drive1.jpg"
 displayimage: "yes"
-tags: feature
+tags: 
+- feature
 ---
 #####*"Just look at him, does he look like a good guy to you"*
 

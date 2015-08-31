@@ -5,6 +5,7 @@ author: Lucas De Barros Silva
 date: 2015-08-30
 excerpt: "Lucas talks about his favorite Bergman film"
 image: "/images/persona/persona2.jpg"
+displayimage: "yes"
 tags: 
 - classicmovie
 - movie

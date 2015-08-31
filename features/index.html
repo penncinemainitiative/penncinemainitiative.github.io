@@ -19,7 +19,7 @@ title: Features
 							<div class="col-sm-4 col-xs-12">
 								<h3><a href="{{ post.url }}" class="linkblack">{{ post.title }}</a></h3>
 								<h4><small>{{ post.date | date: "%b %-d, %Y" }}</small> {{ post.author }}</h4>
-								<p>This is a description of the article mentioned. A little brief is what it is. Let's spark the reader's interest!</p>
+								<p>{{ post.excerpt }}</p>
 							</div>
 						</div>
 					</div>
@@ -29,7 +29,7 @@ title: Features
 							<div class="col-sm-4 col-xs-12">
 								<h3><a href="{{ post.url }}" class="linkblack">{{ post.title }}</a></h3>
 								<h4><small>{{ post.date | date: "%b %-d, %Y" }}</small> {{ post.author }}</h4>
-								<p>This is a description of the article mentioned. A little brief is what it is. Let's spark the reader's interest!</p>
+								<p>{{ post.excerpt }}</p>
 							</div>
 							<div class="col-sm-8 col-xs-12">
 								<a href="{{ post.url }}"><img src="{{ post.image }}" alt="" style="width: 100%;"></a>
