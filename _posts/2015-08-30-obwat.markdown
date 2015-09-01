@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "O Brother, Where Art Thou?"
+title: "<i>O Brother, Where Art Thou?</i>"
 author: Brad Pettigrew
 date: 2015-08-30
 excerpt: "The Coens' 2000 release is a window to the power of myth"
