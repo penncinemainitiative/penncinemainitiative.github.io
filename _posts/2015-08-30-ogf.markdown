@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "<i>Only God Forgives</i>"
+cleantitle: "Only God Forgives"
 author: Nikhil Venkatesa
 date: 2015-08-30
 excerpt: "Nikhil's take on Refn's 2013 film"

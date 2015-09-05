@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Preview: <i>Black Mass</i>"
+cleantitle: "Preview: Black Mass"
 author: Alexander Atienza
 date: 2015-09-04
 excerpt: "Alex gives us a briefing on what to expect from Depp's latest"

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Duality in <i>Drive</i>"
+cleantitle: "Duality in Drive"
 author: Brad Pettigrew
 date: 2015-08-30
 excerpt: "An exploration of duality in Drive, both visual and thematic."

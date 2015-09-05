@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "<i>Persona</i>"
+cleantitle: "Persona"
 author: Lucas De Barros Silva
 date: 2015-08-30
 excerpt: "Lucas talks about his favorite Bergman film"

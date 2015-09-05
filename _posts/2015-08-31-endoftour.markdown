@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First Impressions: <i>The End of the Tour</i>"
+cleantitle: "First Impressions: The End of the Tour"
 author: Alexander Atienza
 date: 2015-08-31
 excerpt: "Alex gives his take on the recent DFW biopic"
