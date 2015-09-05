@@ -4,11 +4,15 @@ title: "Screening of <i>Being John Malkovich</i>"
 title: "Screening of Being John Malkovich"
 film: "Being John Malkovich"
 author: PCI
-date: 2015-09-09
+date: 2015-09-10
+day: "Thursday"
+dd: "10"
+mm: "September"
 excerpt: ""
-image: "/images/events/20150909.jpg"
+image: "/images/events/20150910.jpg"
 location: "Harrison M20"
 time: 9:00 PM
 tags: 
 - event
+- upcomingevent
 ---

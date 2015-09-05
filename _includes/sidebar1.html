@@ -2,7 +2,7 @@
 	<div id="upcomingbar" align="center">
 		<h4>Upcoming Events</h4>
 	</div>
-	{% for post in site.tags.event reversed limit: 3 %}
+	{% for post in site.tags.upcomingevent reversed limit: 3 %}
 	<div class="event">
 		<img src="{{ post.image }}" style="width: 100%;">
 		<h5 style="margin-bottom: 4px;">{{ post.title }}</h5>

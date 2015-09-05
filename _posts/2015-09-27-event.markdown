@@ -4,11 +4,15 @@ title: "Screening of <i>Raging Bull</i>"
 title: "Screening of Raging Bull"
 film: "Raging Bull"
 author: PCI
-date: 2015-09-27
+date: 2015-09-17
+day: "Thursday"
+dd: "17"
+mm: "September"
 excerpt: ""
-image: "/images/events/20150927.jpg"
+image: "/images/events/20150917.jpg"
 location: "Harrison M20"
 time: 9:00 PM
 tags: 
 - event
+- upcomingevent
 ---

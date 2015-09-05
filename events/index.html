@@ -23,15 +23,18 @@ title: Events
 
 		  	<!-- Wrapper for slides -->
 		  	<div class="carousel-inner" role="listbox">
-		    	<div class="item active">
-		      		<img src="/images/events/20150909.jpg">
-		    	</div>
-		    	<div class="item">
-		      		<img src="/images/events/20150927.jpg">
-		    	</div>
-		    	<div class="item">
-		      		<img src="/images/events/20151001.jpg">
-		    	</div>
+		  		{% for post in site.tags.upcomingevent reversed limit: 3 %}
+			  		{% assign loopindex = forloop.index | modulo: 2 %}
+						{% if loopindex == 1 %}
+						<div class="item active">
+				      		<img src="{{ post.image }}">
+				    	</div>
+				    	{% else %}
+				    	<div class="item">
+				      		<img src="{{ post.image }}">
+				    	</div>
+				    	{% endif %}
+				{% endfor %}
 		  	</div>
 
 		  	<!-- Controls -->
@@ -48,48 +51,22 @@ title: Events
 		
 		<br><br>
 		
-		<div class="monthBar" align="center"><h3>September 2015</h3></div>
+		<!--<div class="monthBar" align="center"><h3>September 2015</h3></div>-->
 		
+		{% for post in site.tags.event reversed %}
 		<div class="eventBar">
 			<div class="row">
 				<div class="col-lg-2 col-md-3 col-sm-3 col-xs-4" align="center">
-					<h2>09<br><small>September</small></h2>
+					<h2>{{ post.dd }}<br><small>{{ post.mm }}</small></h2>
 				</div>
 				<div class="col-lg-10 col-md-9 col-sm-9 col-xs-8" align="left">
-					<h4>Screening of <i>Being John Malkovich</i></h4>
-					<h5>Thursday, September 9, 9:00 PM</h5>
+					<h4>{{ post.title }}</h4>
+					<h5>{{ post.day }}, {{ post.date | date: "%b %-d" }}, {{ post.time }}</h5>
 					<h5>Harrison M20</h5>
 				</div>
 			</div>
 		</div>
-
-		<div class="eventBar">
-			<div class="row">
-				<div class="col-lg-2 col-md-3 col-sm-3 col-xs-4" align="center">
-					<h2>27<br><small>September</small></h2>
-				</div>
-				<div class="col-lg-10 col-md-9 col-sm-9 col-xs-8" align="left">
-					<h4>Screening of <i>Raging Bull</i></h4>
-					<h5>Thursday, September 27, 9:00 PM</h5>
-					<h5>Harrison M20</h5>
-				</div>
-			</div>
-		</div>
-
-		<div class="monthBar" align="center"><h3>October 2015</h3></div>
-
-		<div class="eventBar">
-			<div class="row">
-				<div class="col-lg-2 col-md-3 col-sm-3 col-xs-4" align="center">
-					<h2>01<br><small>October</small></h2>
-				</div>
-				<div class="col-lg-10 col-md-9 col-sm-9 col-xs-8" align="left">
-					<h4>Screening of <i>Touch of Evil</i></h4>
-					<h5>Thursday, October 1, 9:00 PM</h5>
-					<h5>Harrison M20</h5>
-				</div>
-			</div>
-		</div>
+		{% endfor %}
 
 		<br><br>
 	</div>
