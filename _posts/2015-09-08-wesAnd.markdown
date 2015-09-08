@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wes Anderson's Wes Anderson"
+title: "Wes Anderson's Anderson"
 cleantitle: "Wes Anderson's Anderson"
 author: Alexander Atienza
 date: 2015-09-08
