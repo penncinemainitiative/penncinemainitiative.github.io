@@ -32,9 +32,9 @@
 	<link rel="shortcut icon" href="/images/PCIfavicon.png"> 
 
 	<!-- OG -->
-	<meta property="og:title" content="{% if page.cleantitle %}{{ page.cleantitle }}{% else if page.title%}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta property="og:title" content="{% if page.cleantitle %}{{ page.cleantitle }}{% else if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 	<meta property="og:site_name" content="Penn Moviegoer">
-	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+	<meta property="og:url" content="{% if page.title %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
 	<meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
 	<meta property="og:type" content="article">
 	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}">
