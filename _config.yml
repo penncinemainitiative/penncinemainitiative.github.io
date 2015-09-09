@@ -1,7 +1,7 @@
 # Site settings
 title: Penn Moviegoer
 description: "The Moviegoer is a student-run blog dedicated to film appreciation - posting film analyses, reviews, previews, and all things related. It is run by the Penn Cinema Initiative."
-image: "http://pennmoviegoer.com/images/Amelie.png"
+image: "http://pennmoviegoer.com/images/fbog.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pennmoviegoer.com" # the base hostname & protocol for your site
 paginate: 5
