@@ -4,6 +4,7 @@ title: "Screening of <i>Touch of Evil</i>"
 cleantitle: "Screening of Touch of Evil"
 film: "Touch of Evil"
 author: PCI
+authorurl: "/writer/PCI/"
 date: 2015-10-01
 day: "Thursday"
 dd: "01"

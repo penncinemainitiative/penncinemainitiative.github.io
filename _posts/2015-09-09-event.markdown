@@ -4,6 +4,7 @@ title: "Screening of <i>Being John Malkovich</i>"
 cleantitle: "Screening of Being John Malkovich"
 film: "Being John Malkovich"
 author: PCI
+authorurl: "/writer/PCI/"
 date: 2015-09-10
 day: "Thursday"
 dd: "10"

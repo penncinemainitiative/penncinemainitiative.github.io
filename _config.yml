@@ -4,7 +4,7 @@ description: "The Moviegoer is a student-run blog dedicated to film appreciation
 image: "http://pennmoviegoer.com/images/fbog.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pennmoviegoer.com" # the base hostname & protocol for your site
-paginate: 5
+paginate: 3
 
 # Build settings
 markdown: kramdown

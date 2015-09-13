@@ -2,6 +2,7 @@
 layout: post
 title: "The Moviegoer's Fall Film Preview"
 author: PCI
+authorurl: "/writer/PCI/"
 date: 2015-08-30
 excerpt: "While by no means comprehensive, these are some of the upcoming films on our radar and why you should be looking out for them too."
 image: "/images/FFP/hatefuleight.jpg"

@@ -3,6 +3,7 @@ layout: post
 title: "<i>O Brother, Where Art Thou?</i>"
 cleantitle: "O Brother, Where Art Thou?"
 author: Brad Pettigrew
+authorurl: "/writer/BradPettigrew/"
 date: 2015-08-30
 excerpt: "The Coens' 2000 release is a window to the power of myth"
 image: "/images/obwat.jpg"

@@ -2,6 +2,7 @@
 layout: post
 title: "Around the Block 9/06"
 author: PCI
+authorurl: "/writer/PCI/"
 date: 2015-09-06
 excerpt: "What's going on this week in film around Philly"
 image: "/images/aroundtheblock.jpg"

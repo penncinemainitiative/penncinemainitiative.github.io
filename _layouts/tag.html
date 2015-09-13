@@ -1,17 +1,13 @@
 ---
 layout: page
-title: Features
 ---
 
-	<div id="pci" align="center"><h1>Features</h1></div>
+	{{ content }}
 
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div id="jekyllvar">
-					{% assign postoffset = 0 %}
-				</div>
-				{% for post in site.tags.feature limit: 6 offset: postoffset %}
+				{% for post in paginator.tag %}
 					{% assign loopindex = forloop.index | modulo: 2 %}
 					{% if loopindex == 1 %}
 					<div class="feature-story">
@@ -42,6 +38,20 @@ title: Features
 					</div>
 					{% endif %}
 				{% endfor %}
+
+				<div class="pagination">
+				  {% if paginator.previous_page %}
+				    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+				  {% else %}
+				    <span class="previous">Previous</span>
+				  {% endif %}
+				  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+				  {% if paginator.next_page %}
+				    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+				  {% else %}
+				    <span class="next ">Next</span>
+				  {% endif %}
+				</div>
 			</div>
 		</div>
 	</div>

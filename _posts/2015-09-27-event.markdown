@@ -4,6 +4,7 @@ title: "Screening of <i>Raging Bull</i>"
 cleantitle: "Screening of Raging Bull"
 film: "Raging Bull"
 author: PCI
+authorurl: "/writer/PCI/"
 date: 2015-09-17
 day: "Thursday"
 dd: "17"

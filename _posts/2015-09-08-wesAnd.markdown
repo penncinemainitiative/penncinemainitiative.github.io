@@ -3,6 +3,7 @@ layout: post
 title: "Wes Anderson's Wes Anderson"
 cleantitle: "Wes Anderson's Wes Anderson"
 author: Alexander Atienza
+authorurl: "/writer/AlexanderAtienza/"
 date: 2015-09-08
 excerpt: "Wes Anderson is somewhat of a maverick in today’s filmmaking. If the mark of a successful director is that people are able to identify his or her stylistic patterns, without a necessarily deep knowledge of filmmaking, then Wes Anderson has succeeded astronomically."
 image: "/images/wesAnd/wa1.jpg"
