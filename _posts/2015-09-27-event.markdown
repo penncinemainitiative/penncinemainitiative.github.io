@@ -11,8 +11,8 @@ dd: "17"
 mm: "September"
 excerpt: ""
 image: "/images/events/20150917.jpg"
-location: "Harrison M20"
-time: 9:00 PM
+location: "Harrison Sky Lounge"
+time: 6:00 PM
 tags: 
 - event
 - upcomingevent
