@@ -5,7 +5,7 @@ cleantitle: "The Chaotic Order of Enemy"
 author: Nikhil Venkatesa
 authorurl: "/writer/NikhilVenkatesa/"
 date: 2015-09-22
-excerpt: "Every frame of Denis Villeneuve’s low-key existential masterpiece Enemy feels fraught with meaning. Part of that comes from its very premise of “the double”, which is a literary trope that comes with a lot of thematic baggage, having been used by writers like Dostoyevsky, Poe and Stevenson, and filmmakers like Kieslowski and Chaplin. In a world already filled with patterns of repetition that limit individual expression, what if you met someone who looked exactly like you?"
+excerpt: "Every frame of Denis Villeneuve’s low-key existential masterpiece Enemy feels fraught with meaning. In a world already filled with patterns of repetition that limit individual expression, what if you met someone who looked exactly like you?"
 image: "/images/enemy/enemy.png"
 displayimage: "yes"
 tags: 
