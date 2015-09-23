@@ -5,10 +5,10 @@ cleantitle: "Screening of Touch of Evil"
 film: "Touch of Evil"
 author: PCI
 authorurl: "/writer/PCI/"
-date: 2015-10-01
+date: 2015-09-24
 day: "Thursday"
-dd: "01"
-mm: "October"
+dd: "24"
+mm: "September"
 excerpt: ""
 image: "/images/events/20151001.jpg"
 location: "Harrison M20"
@@ -16,4 +16,5 @@ time: 9:00 PM
 tags: 
 - event
 - upcomingevent
+- homepageevent
 ---
