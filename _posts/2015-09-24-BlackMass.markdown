@@ -2,8 +2,8 @@
 layout: post
 title: "Southies: The City and The Family in <i>Black Mass</i>"
 cleantitle: "Southies: The City and The Family in Black Mass"
-author: Ritwick Bhatia
-authorurl: "/writer/RitwickBhatia/"
+author: Ritwik Bhatia
+authorurl: "/writer/RitwikBhatia/"
 date: 2015-09-24
 excerpt: "In film, Boston has served as an ideal location for gritty mob sagas and morality tales. And, in Scott Cooper’s menacing Black Mass, Boston symbolizes the only tie to humanity that notorious criminal Whitey Bulger possesses. "
 image: "/images/bmart.jpg"
