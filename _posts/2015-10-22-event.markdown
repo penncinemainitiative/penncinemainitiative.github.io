@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Screening of <i>Yojimbo</i>"
+cleantitle: "Screening of Yojimbo"
+film: "Raging Bull"
+author: PCI
+authorurl: "/writer/PCI/"
+date: 2015-10-22
+day: "Thursday"
+dd: "22"
+mm: "October"
+excerpt: "In feudal Japan, a master-less samurai (Toshiro Mifune) enters a village run by two rival gangs and decides to force them into battling each other."
+image: "/images/events/yojimbo.jpg"
+location: "Harrison M20"
+time: 9:00 PM
+tags: 
+- event
+- upcomingevent
+---

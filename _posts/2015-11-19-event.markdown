@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Screening of <i>Devdas</i>"
+cleantitle: "Screening of Devdas"
+film: "Devdas"
+author: PCI
+authorurl: "/writer/PCI/"
+date: 2015-11-19
+day: "Thursday"
+dd: "19"
+mm: "November"
+excerpt: "A wealthy law graduate in the early 1900s (Khan) returns from his studies in London to marry his childhood sweetheart, Paro (Rai), only to have the marriage disapproved by his parents and descend into emotional deterioration."
+image: "/images/events/devdas.jpg"
+location: "Harrison M20"
+time: 9:00 PM
+tags: 
+- event
+---

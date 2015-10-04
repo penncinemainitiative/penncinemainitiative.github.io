@@ -6,14 +6,15 @@ film: "Au revoir les enfants"
 author: PCI
 authorurl: "/writer/PCI/"
 date: 2015-10-14
-day: "Thursday"
+day: "Wednesday"
 dd: "14"
 mm: "October"
 excerpt: ""
 image: "/images/events/20151014.jpg"
 location: "Harrison M20"
-time: 9:00 PM
+time: 6:00 PM
 tags: 
 - event
 - upcomingevent
+- homepageevent
 ---

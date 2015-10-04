@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Screening of <i>City Lights</i>"
+cleantitle: "Screening of City Lights"
+film: "City Lights"
+author: PCI
+authorurl: "/writer/PCI/"
+date: 2015-11-12
+day: "Thursday"
+dd: "12"
+mm: "November"
+excerpt: "A clumsy and reckless tramp (Chaplin) falls in love with a blind flower girl (Virginia Cherrill) and decides to save her from being evicted from her home with the help of a drunken millionaire (Harry Myers)."
+image: "/images/events/citylights.jpg"
+location: "Harrison M20"
+time: 9:00 PM
+tags: 
+- event
+---
