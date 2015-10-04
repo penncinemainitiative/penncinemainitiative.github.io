@@ -3,7 +3,7 @@ layout: post
 title: "Around the Block 10/04"
 author: PCI
 authorurl: "/writer/PCI/"
-date: 2015-09-27
+date: 2015-10-04
 excerpt: "What's going on this week in film around Philly"
 image: "/images/aroundtheblock.jpg"
 displayimage: "yes"
