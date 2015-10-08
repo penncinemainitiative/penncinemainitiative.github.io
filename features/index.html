@@ -11,7 +11,7 @@ title: Features
 				<div id="jekyllvar">
 					{% assign postoffset = 0 %}
 				</div>
-				{% for post in site.tags.feature limit: 6 offset: postoffset %}
+				{% for post in site.tags.feature limit: 4 offset: postoffset %}
 					{% assign loopindex = forloop.index | modulo: 2 %}
 					{% if loopindex == 1 %}
 					<div class="feature-story">
@@ -42,6 +42,15 @@ title: Features
 					</div>
 					{% endif %}
 				{% endfor %}
+			</div>
+		</div>
+		<div class="row">
+			<div class="sidebar">
+				<div id="upcomingbar" align="center">
+					<a href="/features/archive/" class="afooter">
+						<h4>View All</h4>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
