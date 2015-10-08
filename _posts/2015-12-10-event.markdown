@@ -4,7 +4,6 @@ title: "Short Films Screening"
 cleantitle: "Short Films Screening"
 film: "Various Shorts"
 author: PCI
-authorurl: "/writer/PCI/"
 date: 2015-12-10
 day: "Thursday"
 dd: "10"

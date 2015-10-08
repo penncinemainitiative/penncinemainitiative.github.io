@@ -4,7 +4,6 @@ title: "Screening of <i>Devdas</i>"
 cleantitle: "Screening of Devdas"
 film: "Devdas"
 author: PCI
-authorurl: "/writer/PCI/"
 date: 2015-11-19
 day: "Thursday"
 dd: "19"

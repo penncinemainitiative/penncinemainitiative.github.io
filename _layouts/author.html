@@ -6,10 +6,11 @@ layout: page
 	<div id="pci" align="center"><h2><small>Articles by</small><br>{{ page.author }}</h2></div>
 	<div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12" style="margin-bottom: 16px;">
 		<div class="row">
-			<div class="col-lg-2 col-sm-3 col-xs-4"><img src="{{ page.authorimage }}" class="img"></div>
-			<div class="col-lg-10 col-sm-9 col-xs-8"><p>{{ page.bio }}</p></div>
+			<div class="col-lg-3 col-sm-3 col-xs-4"><img src="{{ page.authorimage }}" class="img" style="width: 100%;"></div>
+			<div class="col-lg-9 col-sm-9 col-xs-8"><p>{{ page.bio }}</p></div>
 		</div>
 	</div>
+	<div class="row">
 	{% for post in site.posts do %}
 	  {% if post.author == page.author %}
 	    <div class="topstory">
@@ -23,4 +24,5 @@ layout: page
 		</div>
 	  {% endif %}
 	{% endfor %}
+	</div>
 </div>

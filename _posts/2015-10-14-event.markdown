@@ -4,7 +4,6 @@ title: "Screening of <i>Au revoir les enfants</i>"
 cleantitle: "Screening Au revoir les enfants"
 film: "Au revoir les enfants"
 author: PCI
-authorurl: "/writer/PCI/"
 date: 2015-10-14
 day: "Wednesday"
 dd: "14"

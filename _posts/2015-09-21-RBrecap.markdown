@@ -3,6 +3,7 @@ layout: post
 title: "Recap: <i>Raging Bull</i>"
 cleantitle: "Recap: Raging Bull"
 author: Olatunbosun Osinaike
+authorurl: "/writer/OlaOsinaike/"
 date: 2015-09-21
 excerpt: "A recap of what was covered at our Raging Bull screening this past Thursday"
 image: "/images/rbrecap.png"

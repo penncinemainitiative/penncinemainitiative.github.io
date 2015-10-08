@@ -4,7 +4,6 @@ title: "Screening of <i>Yojimbo</i>"
 cleantitle: "Screening of Yojimbo"
 film: "Raging Bull"
 author: PCI
-authorurl: "/writer/PCI/"
 date: 2015-10-22
 day: "Thursday"
 dd: "22"

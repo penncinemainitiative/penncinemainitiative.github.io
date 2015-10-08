@@ -4,7 +4,6 @@ title: "PCI goes to Philadelphia Film Festival"
 cleantitle: "PCI goes to Philadelphia Film Festival"
 film: "TBD"
 author: PCI
-authorurl: "/writer/PCI/"
 date: 2015-10-29
 day: "Thursday"
 dd: "29"

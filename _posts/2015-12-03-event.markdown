@@ -4,7 +4,6 @@ title: "Screening of <i>Nebraska</i>"
 cleantitle: "Screening of Nebraska"
 film: "Nebraska"
 author: PCI
-authorurl: "/writer/PCI/"
 date: 2015-12-03
 day: "Thursday"
 dd: "12"

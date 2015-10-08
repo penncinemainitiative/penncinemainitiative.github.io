@@ -4,7 +4,6 @@ title: "Screening of <i>Children of Men</i>"
 cleantitle: "Screening of Children of Men"
 film: "Children of Men"
 author: PCI
-authorurl: "/writer/PCI/"
 date: 2015-11-05
 day: "Thursday"
 dd: "05"
