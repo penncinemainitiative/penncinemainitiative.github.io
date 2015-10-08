@@ -3,7 +3,7 @@ layout: post
 title: "Revisiting <i>Boyhood</i>"
 cleantitle: "Revisiting Boyhood"
 author: Alexander Atienza
-authorurl: "/writer/AlexAtienza/"
+authorurl: "/writer/AlexanderAtienza/"
 date: 2015-10-05
 excerpt: "In the year since it's been out, much attention has been given to Boyhood's idiosyncratic narrative. However, discourse centered on the film’s longitudinal format neglect the other ways in which it is important, such as its uniquely sympathetic portrayal of childhood."
 image: "/images/boyhood/boyhood1.jpg"
