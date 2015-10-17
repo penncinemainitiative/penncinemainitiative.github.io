@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Screening of <i>Yojimbo</i>"
-cleantitle: "Screening of Yojimbo"
-film: "Raging Bull"
+title: "PCI goes to Philadelphia Film Festival"
+cleantitle: "PCI goes to Philadelphia Film Festival"
+film: "Room"
 author: PCI
-date: 2015-10-22
-day: "Thursday"
-dd: "22"
+date: 2015-10-23
+day: "Friday"
+dd: "23"
 mm: "October"
-excerpt: "In feudal Japan, a master-less samurai (Toshiro Mifune) enters a village run by two rival gangs and decides to force them into battling each other."
-image: "/images/events/yojimbo.jpg"
+excerpt: "The Penn Cinema Initiative’s second outside screening invites all students to visit the Philadelphia Film Festival, one of the most riveting film events in the city featuring over 200 feature films and over 50 filmmaker and industry guests."
+image: "/images/events/philadelphia.jpg"
 location: "Harrison M20"
-time: 9:00 PM
+time: 6:15 PM
 tags: 
 - event
 - upcomingevent

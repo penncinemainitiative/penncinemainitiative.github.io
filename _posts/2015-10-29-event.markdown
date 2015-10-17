@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "PCI goes to Philadelphia Film Festival"
-cleantitle: "PCI goes to Philadelphia Film Festival"
-film: "TBD"
+title: "Screening of <i>Yojimbo</i>"
+cleantitle: "Screening of Yojimbo"
+film: "Yojimbo"
 author: PCI
 date: 2015-10-29
 day: "Thursday"
 dd: "29"
 mm: "October"
-excerpt: "The Penn Cinema Initiative’s second Year of Discovery screening invites all students to visit the Philadelphia Film Festival, one of the most riveting film events in the city featuring over 200 feature films and over 50 filmmaker and industry guests. Tickets and tokens will be provided, and the films to be watched are up to both the festival’s upcoming program and the viewers’ choice."
-image: "/images/events/philadelphia.jpg"
+excerpt: "In feudal Japan, a master-less samurai (Toshiro Mifune) enters a village run by two rival gangs and decides to force them into battling each other."
+image: "/images/events/yojimbo.jpg"
 location: "Harrison M20"
-time: TBD
+time: 9:00 PM
 tags: 
 - event
 - upcomingevent
