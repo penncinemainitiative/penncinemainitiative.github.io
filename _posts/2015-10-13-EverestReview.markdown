@@ -11,7 +11,6 @@ displayimage: "yes"
 tags: 
 - movie
 - newmovie
-- popular
 ---
 
 **The following review contains spoilers**
