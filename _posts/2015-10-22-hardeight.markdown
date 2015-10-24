@@ -2,7 +2,7 @@
 layout: post
 title: "Hard Eight: The Weekly Beat 10/22"
 cleantitle: "Hard Eight: The Weekly Beat 10/22"
-author: Brad Pettigrew
+author: PCI
 authorurl: ""
 date: 2015-10-22
 excerpt: "Ritwik, Kevin, and James give a recap of the week's biggest news"

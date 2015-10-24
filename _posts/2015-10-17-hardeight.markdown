@@ -2,7 +2,7 @@
 layout: post
 title: "Hard Eight: The Weekly Beat 10/16"
 cleantitle: "Hard Eight: The Weekly Beat 10/16"
-author: Brad Pettigrew
+author: PCI
 authorurl: ""
 date: 2015-10-16
 excerpt: "Ritwik, Kevin, and James give a recap of the week's biggest news"
@@ -10,7 +10,6 @@ image: "/images/hardeight.jpg"
 displayimage: "yes"
 tags: 
 - feature
-- popular
 ---
 	
 ####1. Trailer for latest Coen brothers film “Hail, Caesar!” released
