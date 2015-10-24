@@ -10,7 +10,6 @@ image: "/images/hardeight.jpg"
 displayimage: "yes"
 tags: 
 - feature
-- popular
 ---
 	
 ####1. First full-length *Star Wars* trailer released
