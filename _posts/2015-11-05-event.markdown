@@ -15,4 +15,5 @@ time: 9:00 PM
 tags: 
 - event
 - upcomingevent
+- homepageevent
 ---

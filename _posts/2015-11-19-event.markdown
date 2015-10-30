@@ -14,4 +14,5 @@ location: "Harrison M20"
 time: 9:00 PM
 tags: 
 - event
+- upcomingevent
 ---
