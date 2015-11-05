@@ -13,6 +13,7 @@ tags:
 - classicmovie
 - popular
 ---
+**Fair warning: full spoilers ahead**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Five Easy Pieces*, directed by Bob Rafelson, is essentially a 100-minute character study of a man unable to express his true character. Bobby Dupea, played incredibly by a young Jack Nicholson just off the success of *Easy Rider*, is a man who we first see working on an oilrig and who we later learn came from a quaint, upper class home in Washington. But Bobby doesn’t fit into either of these lives and instead spends his time trying to escape from his past and his present. He drinks before, after, and on the job. He sleeps around, even after he finds out his girlfriend Rayette is pregnant. While Bobby is an almost completely unlikable character, treating everyone around him horribly, he is an incredibly sympathetic one.
 
