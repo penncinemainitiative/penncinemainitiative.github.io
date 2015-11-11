@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Screening of <i>Devdas</i>"
-cleantitle: "Screening of Devdas"
-film: "Devdas"
+title: "Screening of <i>Dev.D</i>"
+cleantitle: "Screening of Dev.D"
+film: "Dev.D"
 author: PCI
 date: 2015-11-19
 day: "Thursday"
 dd: "19"
 mm: "November"
-excerpt: "A wealthy law graduate in the early 1900s (Khan) returns from his studies in London to marry his childhood sweetheart, Paro (Rai), only to have the marriage disapproved by his parents and descend into emotional deterioration."
-image: "/images/events/devdas.jpg"
+excerpt: "After breaking up with his childhood sweetheart, a young man finds solace in drugs. Meanwhile, a teenage girl is caught in the world of prostitution. Will they be destroyed, or will they find redemption?"
+image: "/images/events/devd.jpg"
 location: "Harrison M20"
 time: 9:00 PM
 tags: 
