@@ -1,12 +1,36 @@
 <div class="sidebar">
-	<div id="upcomingbar" align="center">
-		<h4>Popular</h4>
-	</div>
-    {% for post in site.tags.popular limit: 5 %}
+    <div id="upcomingbar" align="center">
+        <h4>Popular</h4>
+    </div>
+    
     <div class="event">
-    	<a href="{{ post.url }}"><img src="{{ post.image }}" style="width: 100%;"></a>
-		<a href="{{ post.url }}" class="linkblack"><h5 style="margin-bottom: 4px;">{{ post.title }}</h5></a>
-		<h4 style="margin-top: 4px;"><small>{{ post.author }} ({{ post.date | date: "%b %-d, %Y" }})</small></h4>
-	</div>
-    {% endfor %}
+        <a href="2015/11/14/lobster.html"><img src="/images/lobster.jpg" style="width: 100%;"></a>
+        <a href="2015/11/14/lobster.html" class="linkblack"><h5 style="margin-bottom: 4px;">PFF Review: <i>The Lobster</i></h5></a>
+        <h4 style="margin-top: 4px;"><small>Eric Eisner (Nov 14, 2015)</small></h4>
+    </div>
+    
+    <div class="event">
+        <a href="2015/11/10/SpectreRev.html"><img src="/images/FFP/spectre_alt.jpg" style="width: 100%;"></a>
+        <a href="2015/11/10/SpectreRev.html" class="linkblack"><h5 style="margin-bottom: 4px;">Review: <i>Spectre</i></h5></a>
+        <h4 style="margin-top: 4px;"><small>Ritwik Bhatia (Nov 10, 2015)</small></h4>
+    </div>
+    
+    <div class="event">
+        <a href="2015/11/04/fiveeasypieces.html"><img src="/images/fiveeasypieces.jpg" style="width: 100%;"></a>
+        <a href="2015/11/04/fiveeasypieces.html" class="linkblack"><h5 style="margin-bottom: 4px;">Review: <i>Five Easy Pieces</i></h5></a>
+        <h4 style="margin-top: 4px;"><small>James Sheplock (Nov 4, 2015)</small></h4>
+    </div>
+    
+    <div class="event">
+        <a href="2015/11/18/podcast5.html"><img src="/images/podcast.jpg" style="width: 100%;"></a>
+        <a href="2015/11/18/podcast5.html" class="linkblack"><h5 style="margin-bottom: 4px;">Podcast: <i>Spotlight</i></h5></a>
+        <h4 style="margin-top: 4px;"><small>PCI (Nov 18, 2015)</small></h4>
+    </div>
+    
+    <div class="event">
+        <a href="2015/11/09/decameron.html"><img src="/images/decameron.jpg" style="width: 100%;"></a>
+        <a href="2015/11/09/decameron.html" class="linkblack"><h5 style="margin-bottom: 4px;">Pasolini's Sin: <i>The Decameron</i></h5></a>
+        <h4 style="margin-top: 4px;"><small>Olatunbosun Osinaike (Nov 9, 2015)</small></h4>
+    </div>
+    
 </div>
