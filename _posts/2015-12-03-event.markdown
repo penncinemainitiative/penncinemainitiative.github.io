@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Screening of <i>Nebraska</i>"
-cleantitle: "Screening of Nebraska"
-film: "Nebraska"
+title: "Screening of <i>Paths of Glory</i>"
+cleantitle: "Screening of Paths of Glory"
+film: "Paths of Glory"
 author: PCI
 date: 2015-12-03
 day: "Thursday"
 dd: "12"
 mm: "December"
-excerpt: "When the alcoholic Woody Grant (Dern) mistakes a sweepstakes notice for a million dollar winning ticket and decides to walk his way to collect the prize, his son David (Forte) decides to buy Woody’s story and drive with him to Nebraska, unaware of the age-old family stories that are about to be unraveled."
-image: "/images/events/nebraska.jpg"
+excerpt: "Based on the 1935 novel of the same name, it tells the story of an ill-fated assault on German forces by French soldiers, and the grippling consequences those soldiers face when they refuse to follow through with it."
+image: "/images/events/paths.jpg"
 location: "Harrison M20"
 time: 9:00 PM
 tags: 
