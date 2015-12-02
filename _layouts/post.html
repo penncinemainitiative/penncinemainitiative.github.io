@@ -6,7 +6,7 @@ layout: default
 <div class="container">
   <header class="post-header">
     <h2 class="post-title">{{ page.title }}</h2>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.authorurl != "" %} • <a href="{{ site.url }}{{ page.authorurl }}" class="afooter">{{ page.author }}</a>{% else if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.authorurl and page.authorurl != "" %} • <a href="{{ site.url }}{{ page.authorurl }}" class="afooter">{{ page.author }}</a>{% else if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
     <div class="row">
