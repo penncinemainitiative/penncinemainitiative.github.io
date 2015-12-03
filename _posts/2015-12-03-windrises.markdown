@@ -26,7 +26,7 @@ tags:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*The Wind Rises* is a piece of metafiction. Airplane design stands in fairly transparently for animation. The choice of the middle-aged Japanese animator, Hideaki Anno, to voice the young Jiro Horikoshi is both striking and obvious in its implications. With *The Wind Rises*, Miyazaki reminisces on his career in terms of extremes. In the 2013 documentary, *The Kingdom of Dreams and Madness*, Miyazaki muses,
 
 > I need to hurry and finish this film [The Wind Rises]. You know, people 
-> who designs airplanes and machines … No matter how much they believe 
+> who design airplanes and machines … No matter how much they believe 
 > that what they do is good, the winds of time eventually turn them into 
 > tools of industrial civilization. It’s never unscathed. They’re cursed 
 > dreams. Animation, too. … What I mean is, how do we know movies are 
