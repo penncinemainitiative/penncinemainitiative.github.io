@@ -11,8 +11,9 @@ mm: "December"
 excerpt: "The last screening of the Penn Cinema Initiative’s Fall program will substitute our feature film screenings with a lighter, more dynamic presentation of short films, music videos, and commercials from some of PCI’s favorite directors."
 image: "/images/events/shorts.jpg"
 location: "Harrison M20"
-time: 9:00 PM
+time: 4:00 PM
 tags: 
 - event
 - upcomingevent
+- homepageevent
 ---
