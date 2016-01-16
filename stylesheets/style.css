@@ -50,6 +50,7 @@ html, body {
 .headeritem {
 	text-decoration: none;
 	color: inherit;
+	text-transform: uppercase;
 }
 
 .headerh5 {
